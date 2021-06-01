@@ -27,18 +27,14 @@ body {
     z-index: 2;
 }
 #post {
-    height: 27vh;
+    height: 26vh;
     width: 21vh;
     background-image: url("posternew.png");
-    background-size: 21vh 27vh;
-    opacity: 0;
+    background-size: 21vh 26vh;
     position: absolute;
+    opacity: 0;
     z-index: 2;
     top: 14vh;
     left: 96vh;
     border: 3px solid #333;
-}
-#post:hover {
-    opacity: 1;
-    z-index: 0;
 }
