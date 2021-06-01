@@ -12,3 +12,9 @@ foo.addEventListener('click', (e)=> {
         circle.style.backgroundImage = `url("http://pngimg.com/uploads/dog/dog_PNG50318.png")`
     })
 })
+poster.addEventListener('mousemove', (e)=> {
+  poster.style.opacity="1";
+})
+poster.addEventListener('mouseleave', (e)=> {
+  poster.style.opacity="0";
+})
